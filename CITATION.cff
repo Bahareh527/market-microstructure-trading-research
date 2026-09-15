@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this research code, please cite it as follows."
+title: "Market Microstructure Trading Research"
+type: software
+authors:
+  - family-names: Keshavarz
+    given-names: Bahareh
+version: 0.1.0
+date-released: 2026-09-09
+license: MIT
+repository-code: "https://github.com/Bahareh527/market-microstructure-trading-research"

@@ -1,0 +1,61 @@
+{
+  "experiment": "synthetic_lob_logistic_baseline",
+  "seed": 42,
+  "raw_rows": 6000,
+  "model_rows": 5970,
+  "train_rows": 4477,
+  "test_rows": 1493,
+  "features": [
+    "relative_spread_bps",
+    "top_imbalance",
+    "weighted_midprice_distance_bps",
+    "depth_imbalance",
+    "top_depth_concentration",
+    "order_flow_imbalance",
+    "signed_trade_flow",
+    "momentum",
+    "rolling_volatility",
+    "rolling_ofi"
+  ],
+  "label_distribution": {
+    "-1": 2366,
+    "0": 1587,
+    "1": 2017
+  },
+  "classification": {
+    "accuracy": 0.5003348961821835,
+    "balanced_accuracy": 0.4661746078628847,
+    "macro_f1": 0.44827492480510706,
+    "confusion_matrix": [
+      [
+        230,
+        66,
+        181
+      ],
+      [
+        99,
+        67,
+        256
+      ],
+      [
+        74,
+        70,
+        450
+      ]
+    ],
+    "label_order": [
+      -1,
+      0,
+      1
+    ]
+  },
+  "backtest": {
+    "total_return": -0.02272592393638928,
+    "gross_total_return": 0.01097370047528523,
+    "max_drawdown": -0.023914554599053672,
+    "turnover": 339.0,
+    "hit_rate_active": 0.1474010861132661,
+    "transaction_cost_bps": 1.0
+  },
+  "disclaimer": "Synthetic research result; not evidence of live-trading performance."
+}
